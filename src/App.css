@@ -1,0 +1,67 @@
+.app{
+  margin: 0;
+  border: 0;
+  background-color: #F6F8FA;
+}
+/* #display-flex{
+  display: flex;
+  gap: 20px;
+  position: static;
+} */
+
+
+  
+
+/* .app {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .dashboard,
+  .assessment,
+  .my-library,
+  .admin,
+  .round-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .separator {
+    border-top: 1px dashed gray;
+    margin: 20px 0;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .vertical-line {
+    border-left: 1px solid gray;
+    height: 30px;
+  }
+  
+  .horizontal-line {
+    border-top: 1px solid gray;
+    margin: 10px 0;
+  }
+  
+  .assessments-overview,
+  .my-assessment {
+    margin-top: 20px;
+  }
+   */

@@ -1,0 +1,221 @@
+.container {
+    padding: 20px;
+
+}
+h3{
+    color: #1c4980;
+    margin: 10px;
+
+}
+.aligning-items{
+    display: flex;
+    width: 1,224px;
+    height: 150px;
+    gap: 30px;
+}
+#bgcol{
+    background-color: #DADCE0;
+}
+#plus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 209px;
+    width: 380px;
+    background-color: #DADCE0;
+    border-radius: 10px;
+    border: 1px dashed lightgrey ;
+    }
+    #p{
+        color: #0073E6;
+        background-color: #FFFFFF;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .mathassignment{
+        display: flex;
+        flex-direction: column;
+        height: 209px;
+        width: 380px;
+        border: 1px solid  #DADCE0;
+        border-radius: 10px;
+    }
+    .top-ele{
+        display: flex;
+        padding: 10px 0px 0px 15px;
+        gap: 10px;
+        justify-content: space-between
+    }
+    .b{
+        background-color: #EBE8FD;
+        padding: 12px;
+        border-radius: 12px;
+        color: #6548EE;
+
+    }
+    .m{
+       padding: 12px;
+       color: #1c4980;
+    }
+    h4{
+        color: #1c4980;
+    }
+    .mid{
+        padding: 10px;
+    }
+    .math-text{
+        color: #1c4980;
+        /* font-family: Inter; */
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+        
+    }
+    .job-cal{
+        display: flex;
+        width: 137px;
+        height: 22px;
+        gap: 10px;
+        padding-left: 15px;
+    }
+    .job{
+        padding-right: 10px;
+        border-right: 1px solid #DADCE0;
+      
+    }
+    .cal{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        font-family: Inter;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1c4980;
+    }
+    .calicon{
+       height: 20px;
+       width: 20px;
+       padding-right: 2px;
+    }
+    .date{
+       color: #8DA4BF;
+       font-weight: 500;
+       padding-top: 4px;
+    }
+    .bot-ele{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        border-top: 1px dashed #DADCE0;
+    }
+    .left{
+        display: flex;
+        width: 123px;
+        height: 36px;
+        gap: 14px;
+        }
+        .time{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #1c4980;
+
+        }
+        .dur{
+             font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #1c4980;
+
+        }
+        .right{
+            display: flex;
+            width: 123px;
+            height: 36px;
+            gap: 14px;
+            padding: 19px;
+        }
+        .share{
+            display: flex;
+            width: 70px;
+            height: 25px;
+            padding: 4px 8px 2px 6px;
+            border-radius: 50px;
+            border: 1px solid #1c4980;
+            gap: 2px;
+
+        }
+        .lnk{
+            rotate: -45deg;
+             color: #1c4980;
+        }
+        .shr{
+             color: #1c4980;
+            font-size: 14px;
+            padding: 2px;
+            font-weight: 500;
+        }
+        /* .lp{
+          height: 40px;
+          width: 40px;
+          background-color: #6548EE;
+          border-radius: 50%;
+          text-align: center;
+          color: #FFFFFF;
+          font-size: 30px;
+          font-weight: 500;
+         } */
+         .lp{
+            background-color: #6548EE;
+            height: 35px;
+            width: 40px;
+            color: #FFFFFF;
+            text-align: center;
+            border: 1px solid #6548EE;
+            border-radius: 50%;
+            
+         }
+         .lp1{
+           background-color: #3079E1;
+            height: 35px;
+            width: 40px;
+            color: #FFFFFF;
+            text-align: center;
+            border: 1px solid #6548EE;
+            border-radius: 50%;
+            margin-left: -25px;
+            /* position: absolute; */
+         }
+         .lp2{
+          background-color: #E9407A;
+          height: 35px;
+          width: 40px;
+            color: #FFFFFF;
+            text-align: center;
+            border: 1px solid #6548EE;
+            border-radius: 50%;
+            margin-left: -25px;
+           
+         }
+         .show-form{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            background-color: #FFFFFF;
+
+         }
+         .hide-form{
+            display: none;
+         }

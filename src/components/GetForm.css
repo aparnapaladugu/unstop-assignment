@@ -1,0 +1,95 @@
+*{
+    color: #1C4980;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+label{
+    font-size: 20px;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+}
+.form{
+    align-items: center;
+    height: auto;
+    width: 550px;
+    margin-left: 400px;
+}
+
+h1{
+    border-bottom: #DADCE0 2px solid;
+    padding: 30px;
+    color: #1C4980;
+    /* margin-bottom: 30px; */
+    font-size: 30px;
+}
+.file{
+   margin-left: 20px;
+   /* padding: 20px; */
+}
+.type{
+    border: 1px solid  #DADCE0 ;
+    border-radius: 6px;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+}
+.select{
+    border: 1px solid  #DADCE0 ;
+    border-radius: 6px;
+    width: 520px;
+    height: 55px;
+    padding: 10px;
+}
+.grid-container{
+    border: 1px solid  #DADCE0 ;
+    border-radius: 6px;
+    width: 520px;
+    grid-gap: 10px;
+    height: 180px;
+    align-items: center;
+   
+}
+.grid{
+    border: 1px solid  #DADCE0 ;
+    width: 520px;
+ 
+ background-color: white;   height: 120px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4px;
+    /* background-color: #DADCE0; */
+    align-items: center;
+    /* padding: 20px */
+}
+.item{
+    /* margin-left: 20px; */
+    background-color: rgba(204, 240, 248, 0.891);
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 5px;
+    font-family: 'Arsenal', sans-serif;
+    
+}
+.para{
+    margin-left: 20px;
+    background-color: white;
+}
+.save{
+    border-radius: 6px;
+    width: 500px;
+    height: 25px;
+    padding: 10px;
+    background-color: #0073E6;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#input{
+    color: #8DA4BF;
+}

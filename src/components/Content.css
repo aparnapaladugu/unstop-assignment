@@ -1,0 +1,23 @@
+.assessments{
+  display: flex;
+  position: relative;
+  padding: 20px;
+  width: fit-content;
+  /* column-gap: 20px;
+  margin-left: 20px; */
+}
+#assessment{
+  color: #1c4980;
+  font-weight: 600;
+  font-size: 20px;
+  line-height:20px;
+  border-right: 1px solid #DADCE0;
+  padding-right: 20px;
+}
+#myassessment{
+  color: #0073E6;
+  font-weight: 600;
+  font-size: 14px;
+  line-height:16px;
+  padding-left: 20px;
+}

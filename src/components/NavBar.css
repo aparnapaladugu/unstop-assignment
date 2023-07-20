@@ -1,0 +1,95 @@
+ .navbar {
+    width: 10%;
+    background-color: #FFFFFF;
+    padding: 20px;
+  }
+.navbar{
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 661px;
+    width: 90px;
+  
+  
+}
+#select{
+    border: 1px solid #0073E6;
+    background-color: #E5F1FC;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 70px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    /* gap: 4px; */
+
+}
+.port1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{ 
+font-family: Inter;
+/* font: bold; */
+font-weight: 500;
+font-size: 15px;
+/* line-height: 17px; */
+letter-spacing: 0px;
+text-align: left;
+color: #1c4980;
+
+}
+.style{
+    height: 20px;
+    width: 20px;
+    color: #1c4980;
+  
+}
+ .port2{
+    display: flex;
+    border-top: 1px dashed grey ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right:0px;
+ 
+
+ }
+.separator {
+    border-top: 1px dashed gray;
+   margin: 0px 0px 0px 0px ;
+  } 
+  button{
+    color: #D63500;
+    border-color: #D63500;
+    background-color: #FBEBEA;
+    border-radius: 10px;
+
+  }
+
+/*  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    Define styles for icons, such as width, height, and background 
+    color: red;
+  }
+  
+  .text {
+ Define styles for text, such as font size and color 
+    color: red;
+  }*/
+
